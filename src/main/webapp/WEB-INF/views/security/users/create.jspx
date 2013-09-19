@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http:
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_intera_roostrap_domain_security_User" modelAttribute="user" path="/security/users" render="${empty dependencies}" z="BfVQJ76x55weeRJwO88zIcIgSUI=">
+        <field:input field="firstName" id="c_com_intera_roostrap_domain_security_User_firstName" min="1" required="true" z="rCwD6Lh5GVpsUcQbe8AqXQM0uV8="/>
+        <field:input field="lastName" id="c_com_intera_roostrap_domain_security_User_lastName" min="1" required="true" z="5yTPeWKUzu71w+P6jnwphtsm/Hc="/>
+        <field:input field="emailAddress" id="c_com_intera_roostrap_domain_security_User_emailAddress" min="1" required="true" validationMessageCode="field_invalid_email" z="vEka+/zZMKP2bYw14HAkj9WmW3k="/>
+        <field:input field="password" id="c_com_intera_roostrap_domain_security_User_password" min="1" required="true" z="G0pDd0H/b459tqMGCUchLt286SE="/>
+        <field:datetime dateTimePattern="${user_activationdate_date_format}" field="activationDate" id="c_com_intera_roostrap_domain_security_User_activationDate" render="false" z="user-managed"/>
+        <field:checkbox field="enabled" id="c_com_intera_roostrap_domain_security_User_enabled" z="exNEoO1N8UZmjV3H475xG/dgoH4="/>
+        <field:checkbox field="locked" id="c_com_intera_roostrap_domain_security_User_locked" z="wbJu3JFIcp40U3Zk33SQnco3uNQ="/>
+        <field:input field="uactivationDateString" id="c_com_intera_roostrap_domain_security_User_uactivationDateString" z="57pAax8dRiFEA8eTEX/GcR/PIM4="/>
+        <field:input field="pnotes" id="c_com_intera_roostrap_domain_security_User_pnotes" z="l7eS8m5YkTZHgve0tSIwlzOYwXY="/>
+        <field:input field="umeetings" id="c_com_intera_roostrap_domain_security_User_umeetings" z="EJqZVXSWrw+JztjGOT7Du82/Gcg="/>
+        <field:input field="uagendaItems" id="c_com_intera_roostrap_domain_security_User_uagendaItems" z="YJW7/W7kjYLgHuPmW7qKk+GYmUY="/>
+        <field:input field="uparticipants" id="c_com_intera_roostrap_domain_security_User_uparticipants" z="mbvFCMrXV146FBjyu/w05tCcXBk="/>
+        <field:input field="uactionItems" id="c_com_intera_roostrap_domain_security_User_uactionItems" z="TWMF47zFckeH9RNS5hekgVinX3M="/>
+        <field:input field="uWebCreated" id="c_com_intera_roostrap_domain_security_User_uWebCreated" z="7ILrKmVrYgmj+A9oYxm518Se1zQ="/>
+        <field:input field="uiPadAppCreated" id="c_com_intera_roostrap_domain_security_User_uiPadAppCreated" z="WMIBM993FlHuJSGXqisisNPNcMs="/>
+        <field:input field="uAndroidCreated" id="c_com_intera_roostrap_domain_security_User_uAndroidCreated" z="ajpY05AoEg5PVWE86h2LP8JFGnU="/>
+        <field:input field="uOtherCreated" id="c_com_intera_roostrap_domain_security_User_uOtherCreated" z="QaAuBY2XolEtkmpIlCpmLljaOXE="/>
+        <field:input field="uAddlColumn1" id="c_com_intera_roostrap_domain_security_User_uAddlColumn1" z="YUTgVMyQ99XJMbAM3BOahoPiqFw="/>
+        <field:input field="uAddlColumn2" id="c_com_intera_roostrap_domain_security_User_uAddlColumn2" z="70ghdvZ2T9IWo95A5fzHo7PhMeQ="/>
+        <field:input field="uAddlColumn3" id="c_com_intera_roostrap_domain_security_User_uAddlColumn3" z="baScaoSRsP87J1VOXoTLt8QRErA="/>
+        <field:input field="uAddlColumn4" id="c_com_intera_roostrap_domain_security_User_uAddlColumn4" z="N7mzIiCAdo/+Wosk0L7XOnUz6pA="/>
+        <field:input field="uAddlColumn5" id="c_com_intera_roostrap_domain_security_User_uAddlColumn5" z="HBEILdnt5E16csa+zhMcHEPTjjQ="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_intera_roostrap_domain_security_User" render="${not empty dependencies}" z="LaHKzfTJjARMd5sbmnEcxI4U2XU="/>
+</div>

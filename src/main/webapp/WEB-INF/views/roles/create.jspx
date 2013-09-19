@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http:
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_intera_roostrap_domain_security_Role" modelAttribute="role" path="/roles" render="${empty dependencies}" z="1IBU3DrCZ/trDCKJAtXZ/8Jy2/A=">
+        <field:input field="name" id="c_com_intera_roostrap_domain_security_Role_name" required="true" z="vsBLkjShyBGvl6U+d4YAECHOF8w="/>
+        <field:textarea field="description" id="c_com_intera_roostrap_domain_security_Role_description" required="true" z="kDgoFli2hBBRSVVwPC88lMcvYjY="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_intera_roostrap_domain_security_Role" render="${not empty dependencies}" z="PKa29ay3/iAgNex28phou6a18iQ="/>
+</div>

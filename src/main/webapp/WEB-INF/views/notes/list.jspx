@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http:
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_intera_roostrap_domain_Note" items="${notes}" z="gSlLo890KRUSCY6x8eZqOyjwJk8=">
+        <table:table data="${notes}" id="l_com_intera_roostrap_domain_Note" path="/notes" typeIdFieldName="PrimaryId" z="DJGGgkkrn8LflJGLw+cR00IJqMk=">
+            <table:column id="c_com_intera_roostrap_domain_Note_ntext" property="ntext" z="ojA8ovQhnVMrPHg2XsiUXlA7D/g="/>
+            <table:column id="c_com_intera_roostrap_domain_Note_ncreatedBy" property="ncreatedBy" z="2m1CndYCCQ4ZRO7EHuDcYwCrFUU="/>
+            <table:column id="c_com_intera_roostrap_domain_Note_noteID" property="noteID" z="7FBOWUyVEjhZlQE0hhEhfPYM93U="/>
+            <table:column date="true" dateTimePattern="${note_ncreatedon_date_format}" id="c_com_intera_roostrap_domain_Note_ncreatedOn" property="ncreatedOn" z="wVv8cZTqWnDxj8FoWN9Bsh0VTJw="/>
+            <table:column date="true" dateTimePattern="${note_nmodifiedon_date_format}" id="c_com_intera_roostrap_domain_Note_nmodifiedOn" property="nmodifiedOn" z="AIKjhvseq/diSDL3mvnn3K/3ccw="/>
+            <table:column date="true" dateTimePattern="${note_nsyncdate_date_format}" id="c_com_intera_roostrap_domain_Note_nsyncDate" property="nsyncDate" z="W5JqYofPATMcvYXnPVSzgJaBc5o="/>
+        </table:table>
+    </page:list>
+</div>

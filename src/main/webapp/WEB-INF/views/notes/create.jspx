@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http:
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_intera_roostrap_domain_Note" modelAttribute="note" path="/notes" render="${empty dependencies}" z="XFT0C6sc4u+XRyLeiCZxeSaebiw=">
+        <field:input field="ntext" id="c_com_intera_roostrap_domain_Note_ntext" required="true" z="2WzQCYE+5xeL3SB2rfp/GQtd+yU="/>
+        <field:input field="ncreatedBy" id="c_com_intera_roostrap_domain_Note_ncreatedBy" z="sF26eQmvRHWKG0+Vu/IEWgEEJuk="/>
+        <field:datetime dateTimePattern="${note_ncreatedon_date_format}" field="ncreatedOn" id="c_com_intera_roostrap_domain_Note_ncreatedOn" z="ytfNTerzJe0MDc9eOE+4ANmAFTI="/>
+        <field:datetime dateTimePattern="${note_nmodifiedon_date_format}" field="nmodifiedOn" id="c_com_intera_roostrap_domain_Note_nmodifiedOn" z="FsUmwLVleL4uGWH9SaNh8oRoSDo="/>
+        <field:input field="ntitle" id="c_com_intera_roostrap_domain_Note_ntitle" z="R0rsEQhYa3yxf97pYcDmXvQ8x20="/>
+        <field:checkbox field="ndeleted" id="c_com_intera_roostrap_domain_Note_ndeleted" z="nurmADbZlGUozjwOdKdLxfDzNWE="/>
+        <field:input field="nmeetings" id="c_com_intera_roostrap_domain_Note_nmeetings" z="V7lf7aFpC94qZJwovkmEOzUmG0w="/>
+        <field:input field="nagendaItems" id="c_com_intera_roostrap_domain_Note_nagendaItems" z="qCoa3ppvbYglcFMRmZZljTqNNL4="/>
+        <field:input field="nparticipants" id="c_com_intera_roostrap_domain_Note_nparticipants" z="lpPViG85gwYdtLCMfSpA9D4wIIk="/>
+        <field:input field="nnotes" id="c_com_intera_roostrap_domain_Note_nnotes" z="vKZwAGBrm4e3Y8frrzDlbPFsW+c="/>
+        <field:input field="nactionItems" id="c_com_intera_roostrap_domain_Note_nactionItems" z="eikQqP2yML2Uj6Om6XgIN8vZ03s="/>
+        <field:input field="nWebCreated" id="c_com_intera_roostrap_domain_Note_nWebCreated" z="+ok0I2M4haO6VmLCTl4BYSa3JPI="/>
+        <field:input field="niPadAppCreated" id="c_com_intera_roostrap_domain_Note_niPadAppCreated" z="nzeENnMX6JumFhYrDslthvZOK6Y="/>
+        <field:input field="nAndroidCreated" id="c_com_intera_roostrap_domain_Note_nAndroidCreated" z="3/THbiFwitOuEEf+fy+32msAvIs="/>
+        <field:input field="nOtherCreated" id="c_com_intera_roostrap_domain_Note_nOtherCreated" z="kNk17gHbPtF45QQDT/FAHQlJPc8="/>
+        <field:input field="nAddlColumn1" id="c_com_intera_roostrap_domain_Note_nAddlColumn1" z="4aDfKOtSdbeYIjYL+E+keyKObaA="/>
+        <field:input field="nAddlColumn2" id="c_com_intera_roostrap_domain_Note_nAddlColumn2" z="jvpSWk4io1UM1YxnNlsX5mzvW1E="/>
+        <field:input field="nAddlColumn3" id="c_com_intera_roostrap_domain_Note_nAddlColumn3" z="z7fHO/3lr4N+UJYTIqh0cJe3H8I="/>
+        <field:input field="nAddlColumn4" id="c_com_intera_roostrap_domain_Note_nAddlColumn4" z="E4wVWZwxuhmPBRwF00AXJgjePFc="/>
+        <field:input field="nAddlColumn5" id="c_com_intera_roostrap_domain_Note_nAddlColumn5" z="hNpB9UvzWVvPJoRio+yvqpTHJrI="/>
+        <field:datetime dateTimePattern="${note_nsyncdate_date_format}" field="nsyncDate" id="c_com_intera_roostrap_domain_Note_nsyncDate" z="NFsRfXnPueEP9rkE53w4HnEN2pE="/>
+        <field:input field="nparentType" id="c_com_intera_roostrap_domain_Note_nparentType" z="SJtr6u76MOu261f9kPYaJjixJF0="/>
+        <field:input field="nparentID" id="c_com_intera_roostrap_domain_Note_nparentID" z="D7NXsRxxp2L1nueOAFxXv1QrjL8="/>
+        <field:input field="nmaaID" id="c_com_intera_roostrap_domain_Note_nmaaID" z="suWqsBNQ8px3RpdZKsb4n6Uj7GY="/>
+        <field:input field="noteID" id="c_com_intera_roostrap_domain_Note_noteID" z="T6uIIDh3fPx9K6JGivwjZQzM9uk="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_intera_roostrap_domain_Note" render="${not empty dependencies}" z="+eVLRy++f/EdBbdSOGN0sKG99uo="/>
+</div>

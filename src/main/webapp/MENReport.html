@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Rigil Meeting App</title>
+
+ <link href="http://www.gstatic.com/codesite/ph/17444577587916266307/css/ph_core.css" rel="stylesheet" type="text/css" />
+ <link href="http://code.google.com/css/codesite.pack.04102009.css" rel="stylesheet" type="text/css" />
+
+
+  <script language="javascript" src="script/jquery-ui-1.10.3.custom.js"></script>
+
+  <script language="javascript" src='script/mrnajax.util.js'></script>
+
+<link type="text/css" rel="stylesheet"
+	href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/ui-lightness/jquery-ui.css" />
+<link type="text/css" rel="stylesheet" href="styles/themes/github.css" />
+<link type="text/css" rel="stylesheet" href="styles/default.css" />
+
+<script type="text/javascript" src="script/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="script/rainbow.min.js"></script>
+<script type="text/javascript" src="script/language/generic.js"></script>
+<script type="text/javascript" src="script/language/javascript.js"></script>
+<script type="text/javascript" src="script/language/html.js"></script>
+<script type="text/javascript" src="script/language/css.js"></script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push([ '_setAccount', 'UA-20519446-10' ]);
+	_gaq.push([ '_trackPageview' ]);
+
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www')
+				+ '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+</head>
+
+<body>
+	<div id="header">
+
+
+	</div>
+
+	<div id="main">
+ 		
+		 <div  id="gc-pagecontent" ></div>
+  <h1 class="page_title">Rigil Corp Meeting App - Meeting Report</h1> <!-- tabs --> 
+  	<form name="mr-search-form" id="mr-search-form">
+  <input type="hidden" name="query" id="query" value="" class="gsc-input"/>
+  </form>
+
+ <div id="mraccordion" class="gtb">
+ 	 
+  <div class="g-unit" id="wmeetingreport-tab">
+     <div class ="message" id="wmeetingreport-show-message" style="display:none"> </div>
+   <h2>Meeting Details</h2>   <!-- search container -->
+
+
+   <!-- list container -->
+   	<div class="results" style="border:0;" id="wmeetingreport-list-ctr">
+          <table width="100%" cellspacing="0" cellpadding="2" border="0" style="border-collapse:collapse;">
+            <thead>
+              <tr>
+
+                <!--  <th scope="col">Title</th>  -->
+                    <th scope="col">Date</th>
+                       <th scope="col">Location</th>
+                                
+   <th scope="col">Duration</th>
+             <th scope="col">Start</th> 
+                 <th scope="col">End</th>
+                <th scope="col">Description</th>
+        
+            </tr>
+            </thead>
+            <tbody id="wmeetingreport-list-tbody"></tbody>
+          </table>
+  	</div>
+    	
+  
+  </div>
+  
+  <!-- ******************************************* Agendaitem ******************************************* -->
+  <div class="message" id="wmragendaitem-show-message" style="display:none"></div>
+    	<h2>Agenda Item(s) List</h2>
+
+ 	   	<div class="results" style="border:0;" id="wmragendaitem-list-ctr">
+           <table width="100%" cellspacing="0" cellpadding="2" border="0" style="border-collapse:collapse;">
+             <thead>
+               <tr>
+                 <th scope="col">Agenda</th>
+                 <th scope="col">Title</th>
+                              
+               </tr>
+             </thead>
+             <tbody id="wmragendaitem-list-tbody"></tbody>
+           </table>
+	  	</div>
+	  	
+
+  
+  
+  
+  
+     <div class ="message" id="wmrdirectory-show-message" style="display:none"> </div>
+   	<h2>Participant(s) List</h2>
+   	 	
+     <!-- list container -->
+   	<div class="results" style="border:0;" id="wmrdirectory-list-ctr">
+          <table width="100%" cellspacing="0" cellpadding="2" border="0" style="border-collapse:collapse;">
+            <thead>
+                
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">email</th>
+                              
+             </thead>
+            <tbody id="wmrdirectory-list-tbody"></tbody>
+          </table>
+  	</div>
+  
+       </div>
+        </div>
+   
+<script type="text/javascript">
+ $(window).load(function () {
+   init();
+});
+</script>
+<script type="text/javascript">
+
+function getQueryVariable(variable)
+{
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){return pair[1];}
+       }
+       return(false);
+}
+document.getElementById('query').value = getQueryVariable("query");
+</script>
+<script type="text/javascript">
+$(function() {
+    $( "#mraccordion" ).accordion();
+});
+</script>
+<script type="text/javascript">
+$(function() {
+    $( "#mrtestaccordion" ).accordion();
+});
+</script>
+<script type="text/javascript">
+$('div#wmeetingreport-tab').accordion({
+	collapsible: true,
+    active: false,
+    heightStyle: 'content'
+}); 
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http:
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_intera_roostrap_domain_Directory" object="${directory}" path="/directorys" z="CVMMCrWwJNUruE4Vdu1xbsUQ0ZU=">
+        <field:display field="pfirstName" id="s_com_intera_roostrap_domain_Directory_pfirstName" object="${directory}" z="HWjFk7bCYRtqtVTLja1YpthI6ZI="/>
+        <field:display field="plastName" id="s_com_intera_roostrap_domain_Directory_plastName" object="${directory}" z="VEijfcZqfSy1V6e1b6g1K6qenro="/>
+        <field:display field="pemail" id="s_com_intera_roostrap_domain_Directory_pemail" object="${directory}" z="baF1WC/ocmUvOvWteaYSsLaLHqs="/>
+        <field:display date="true" dateTimePattern="${directory_pcreatedon_date_format}" field="pcreatedOn" id="s_com_intera_roostrap_domain_Directory_pcreatedOn" object="${directory}" z="aaPNhNznrWgWjROyI4p92bVpErQ="/>
+        <field:display date="true" dateTimePattern="${directory_pmodifiedon_date_format}" field="pmodifiedOn" id="s_com_intera_roostrap_domain_Directory_pmodifiedOn" object="${directory}" z="+OtLzk5WDd3GNllYGW81S+VtTVU="/>
+        <field:display field="pmeetings" id="s_com_intera_roostrap_domain_Directory_pmeetings" object="${directory}" z="h6Yoo4C6T+t+yYa5Bq9gAhBwJLU="/>
+        <field:display field="pagendaItems" id="s_com_intera_roostrap_domain_Directory_pagendaItems" object="${directory}" z="9jk4tE4n8y7jqShtFw4DY92bzCg="/>
+        <field:display field="pparticipants" id="s_com_intera_roostrap_domain_Directory_pparticipants" object="${directory}" z="EaFolerfH6e/cpCJMGRi8XHG13A="/>
+        <field:display field="pnotes" id="s_com_intera_roostrap_domain_Directory_pnotes" object="${directory}" z="2Iu20BylOIv5YecLWPHmJm1JZUs="/>
+        <field:display field="pactionItems" id="s_com_intera_roostrap_domain_Directory_pactionItems" object="${directory}" z="Kvh7aWHjwu6xlbkAchq9APnsdAY="/>
+        <field:display field="PWebCreated" id="s_com_intera_roostrap_domain_Directory_pWebCreated" object="${directory}" z="Aj+4sHjoq5CPjXW7DQDLpHL9Dzs="/>
+        <field:display field="piPadAppCreated" id="s_com_intera_roostrap_domain_Directory_piPadAppCreated" object="${directory}" z="4rIer1Q8wQnvmmrPvGWwZMqJLv4="/>
+        <field:display field="PAndroidCreated" id="s_com_intera_roostrap_domain_Directory_pAndroidCreated" object="${directory}" z="9gjI4Rk0/grf8QbcPEdpe8pU+RE="/>
+        <field:display field="POtherCreated" id="s_com_intera_roostrap_domain_Directory_pOtherCreated" object="${directory}" z="Y+OqaxP+59y6N3BESOUGz7ZlZxY="/>
+        <field:display field="PAddlColumn1" id="s_com_intera_roostrap_domain_Directory_pAddlColumn1" object="${directory}" z="KnLHxT5usmgwvMflGsXuNnh+bOA="/>
+        <field:display field="PAddlColumn2" id="s_com_intera_roostrap_domain_Directory_pAddlColumn2" object="${directory}" z="0SYH7/zp/xkb3UBNjajOw0YJFBE="/>
+        <field:display field="PAddlColumn3" id="s_com_intera_roostrap_domain_Directory_pAddlColumn3" object="${directory}" z="BL9xexLBDV1BAdxHDpo6eyEaAhg="/>
+        <field:display field="PAddlColumn4" id="s_com_intera_roostrap_domain_Directory_pAddlColumn4" object="${directory}" z="Cqi1BnW9YGfWuRhtABofTNXX31M="/>
+        <field:display field="PAddlColumn5" id="s_com_intera_roostrap_domain_Directory_pAddlColumn5" object="${directory}" z="5bF4Me3WVp8LZSVmmvsylQnPmec="/>
+        <field:display field="pcreatedBy" id="s_com_intera_roostrap_domain_Directory_pcreatedBy" object="${directory}" z="zhtt6lYCxmxKL4QaTjOdsN+RxiY="/>
+        <field:display date="true" dateTimePattern="${directory_psyncdate_date_format}" field="psyncDate" id="s_com_intera_roostrap_domain_Directory_psyncDate" object="${directory}" z="dBeVxRZnE6dUQ2exjV1odU0EMEg="/>
+        <field:display field="contactID" id="s_com_intera_roostrap_domain_Directory_contactID" object="${directory}" z="TBiADfgJ7/jz1nbWt9M321T/wi0="/>
+        <field:display field="pdeleted" id="s_com_intera_roostrap_domain_Directory_pdeleted" object="${directory}" z="nONl8RlYc32z9jd4NXGq9IGbQGs="/>
+    </page:show>
+</div>

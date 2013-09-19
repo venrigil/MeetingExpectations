@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http:
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_intera_roostrap_domain_security_Role" items="${roles}" z="jtvPObH5ABA4dyj2BhaolaZA1QE=">
+        <table:table data="${roles}" id="l_com_intera_roostrap_domain_security_Role" path="/roles" z="h7fRw0CwoMJZ9Bijg4vJdFTAxJU=">
+            <table:column id="c_com_intera_roostrap_domain_security_Role_name" property="name" z="A3EqlieXsnKBstFB8/M6hZAgrsI="/>
+            <table:column id="c_com_intera_roostrap_domain_security_Role_description" property="description" z="Y5FrQ7GRVR/0Nw19E3SiFfxOWuI="/>
+        </table:table>
+    </page:list>
+</div>

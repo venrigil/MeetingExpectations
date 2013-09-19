@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="agendaitems/list">
+        <put-attribute name="body" value="/WEB-INF/views/agendaitems/list.jspx"/>
+    </definition>
+<definition extends="default" name="agendaitems/show">
+        <put-attribute name="body" value="/WEB-INF/views/agendaitems/show.jspx"/>
+    </definition>
+<definition extends="default" name="agendaitems/create">
+        <put-attribute name="body" value="/WEB-INF/views/agendaitems/create.jspx"/>
+    </definition>
+<definition extends="default" name="agendaitems/update">
+        <put-attribute name="body" value="/WEB-INF/views/agendaitems/update.jspx"/>
+    </definition>
+</tiles-definitions>

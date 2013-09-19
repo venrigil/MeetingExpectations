@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http:
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_intera_roostrap_domain_Attachment" object="${attachment}" path="/attachments" z="ikjjzWvoYx9n4ABfRcRtMqQsp7A=">
+        <field:display field="attachmentID" id="s_com_intera_roostrap_domain_Attachment_attachmentID" object="${attachment}" z="R8LIPKHJ+20QuMrVLoI/bJ3b3QQ="/>
+        <field:display date="true" dateTimePattern="${attachment_acreatedon_date_format}" field="acreatedOn" id="s_com_intera_roostrap_domain_Attachment_acreatedOn" object="${attachment}" z="B+nInLrjKcHupqMsA75rs2tCVVg="/>
+        <field:display field="adeleted" id="s_com_intera_roostrap_domain_Attachment_adeleted" object="${attachment}" z="e+E9AQa22G3GdDfrnFqfVyZrtf4="/>
+        <field:display field="adesc" id="s_com_intera_roostrap_domain_Attachment_adesc" object="${attachment}" z="AD4RdFyPuGFNyzFG6TxVXqyYt/k="/>
+        <field:display field="afileName" id="s_com_intera_roostrap_domain_Attachment_afileName" object="${attachment}" z="P7HutB+l3qTjivcPC8pHalUnpbs="/>
+        <field:display date="true" dateTimePattern="${attachment_amodifiedon_date_format}" field="amodifiedOn" id="s_com_intera_roostrap_domain_Attachment_amodifiedOn" object="${attachment}" z="1ZvNkZ3W2jyNubRJn9bPUJahunM="/>
+        <field:display field="atype" id="s_com_intera_roostrap_domain_Attachment_atype" object="${attachment}" z="eQYOvXa+Vvht/pDl8hkn+F4Fvwc="/>
+        <field:display field="anoteID" id="s_com_intera_roostrap_domain_Attachment_anoteID" object="${attachment}" z="nudQxPSiq1c45DMyJzrh1SFY9fQ="/>
+        <field:display field="aparentType" id="s_com_intera_roostrap_domain_Attachment_aparentType" object="${attachment}" z="JL3bf1GqbB9uEAMBltkPS6x2QnY="/>
+        <field:display field="aparentID" id="s_com_intera_roostrap_domain_Attachment_aparentID" object="${attachment}" z="l8CHioSIzuPs+2BRz98w9oqVjXw="/>
+        <field:display field="adata" id="s_com_intera_roostrap_domain_Attachment_adata" object="${attachment}" z="m4037wW1BTzpGkhUe2AhwizRBV4="/>
+        <field:display field="athumbnail" id="s_com_intera_roostrap_domain_Attachment_athumbnail" object="${attachment}" z="MBlzhmykfFUVK2Gb4KNEmn8omRw="/>
+    </page:show>
+</div>

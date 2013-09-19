@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Rigil Meeting App</title>
+
+  
+  <link href="http://www.gstatic.com/codesite/ph/17444577587916266307/css/ph_core.css" rel="stylesheet" type="text/css" />
+ <link href="http://code.google.com/css/codesite.pack.04102009.css" rel="stylesheet" type="text/css" />
+  <script language="javascript" src='script/jquery-1.9.1.js'></script>
+  <!--  <script language="javascript" src='script/mrajax.util.js'></script> -->
+  <script language="javascript" src='script/getmeetings.util.js'></script>
+
+<link type="text/css" rel="stylesheet"
+	href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/ui-lightness/jquery-ui.css" />
+<link type="text/css" rel="stylesheet" href="styles/themes/github.css" />
+<link type="text/css" rel="stylesheet" href="styles/default.css" />
+</head>
+
+<body>
+	<div id="header">
+
+
+	</div>
+
+	<div id="main">
+ 	
+	
+		 <div  id="gc-pagecontent" ></div>
+  <h1 class="page_title">Rigil Corp Meeting App - Meeting Report</h1> <!-- tabs --> 
+  	<form name="mr-search-form" id="mr-search-form">
+  <input type="hidden" name="query" id="query" value="" class="gsc-input"/>
+    <input type="hidden" name="id" id="id" value="" class="gsc-input"/>
+  </form>
+
+
+
+  	
+	  	<h2>List of all Meetings</h2>
+
+	  	<div class="results" style="border:0;" id="item-meetings-list-ctr">
+	  	<table width="200" cellspacing="0" cellpadding="0">
+
+           <tr>
+             <td>Meeting(s)</td>
+             <td><select id="item-meetings-list" name="meetings" onchange="showMeetingsList(this.value)"></select></td>
+         
+  			 </table>
+			 <!-- </form> -->
+			 
+	  	</div>
+	  	<!-- create conatiner ends here -->
+
+
+ <div id="mraccordion" class="gtb">
+ 	 
+  <div class="g-unit" id="wmeetingreport-tab">
+     <div class ="message" id="wmeetingreport-show-message" style="display:none"> </div>
+   <h2>Meeting Details</h2>   <!-- search container -->
+
+
+   <!-- list container -->
+   	<div class="results" style="border:0;" id="wmeetingreport-list-ctr">
+          <table width="100%" cellspacing="0" cellpadding="2" border="0" style="border-collapse:collapse;">
+            <thead>
+              <tr>
+
+                <!--  <th scope="col">Title</th>  -->
+                    <th scope="col">Date</th>
+                       <th scope="col">Location</th>
+                                
+   <th scope="col">Duration</th>
+             <th scope="col">Start</th> 
+                 <th scope="col">End</th>
+                <th scope="col">Description</th>
+        
+            </tr>
+            </thead>
+            <tbody id="wmeetingreport-list-tbody"></tbody>
+          </table>
+  	</div>
+    	
+  
+  </div>
+  
+       <div class ="message" id="wmrdirectory-show-message" style="display:none"> </div>
+   	<h2>Participant(s) List</h2>
+   	 	
+     <!-- list container -->
+   	<div class="results" style="border:0;" id="wmrdirectory-list-ctr">
+          <table width="100%" cellspacing="0" cellpadding="2" border="0" style="border-collapse:collapse;">
+            <thead>
+                
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">email</th>
+                              
+             </thead>
+            <tbody id="wmrdirectory-list-tbody"></tbody>
+          </table>
+  	</div>
+  
+  <!-- ******************************************* Agendaitem ******************************************* -->
+  <div class="message" id="wmragendaitem-show-message" style="display:none"></div>
+    	<h2>Agenda Item(s) List</h2>
+
+ 	   	<div class="results" style="border:0;" id="wmragendaitem-list-ctr">
+           <table width="100%" cellspacing="0" cellpadding="2" border="0" style="border-collapse:collapse;">
+             <thead>
+               <tr>
+                 <th scope="col">Agenda Item</th>
+                 <th scope="col">Notes</th>
+                              
+               </tr>
+             </thead>
+             <tbody id="wmragendaitem-list-tbody"></tbody>
+           </table>
+	  	</div>
+	  	
+  <!-- ******************************************* Actionitem ******************************************* -->
+  <div class="message" id="wmractionitem-show-message" style="display:none"></div>
+    	<h2>Action Item(s) List</h2>
+
+ 	   	<div class="results" style="border:0;" id="wmractionitem-list-ctr">
+           <table width="100%" cellspacing="0" cellpadding="2" border="0" style="border-collapse:collapse;">
+             <thead>
+               <tr>
+                 <th scope="col">Action Item</th>
+                 <th scope="col">Notes</th>
+                              
+               </tr>
+             </thead>
+             <tbody id="wmractionitem-list-tbody"></tbody>
+           </table>
+	  	</div>
+  
+  
+    <!-- ******************************************* NotesItem ******************************************* -->
+  <div class="message" id="wmrmnotes-show-message" style="display:none"></div>
+    	<h2>Meeting Note(s) List</h2>
+
+ 	   	<div class="results" style="border:0;" id="wmrmnotes-list-ctr">
+           <table width="100%" cellspacing="0" cellpadding="2" border="0" style="border-collapse:collapse;">
+             <thead>
+               <tr>
+                 <th scope="col">Notes Title</th>
+                 <th scope="col">Notes Text</th>
+                              
+               </tr>
+             </thead>
+             <tbody id="wmrmnotes-list-tbody"></tbody>
+           </table>
+	  	</div>
+  
+  
+
+  
+       </div>
+        </div>
+   
+
+<script type="text/javascript">
+
+function getQueryVariable(variable)
+{
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){return pair[1];}
+       }
+       return(false);
+}
+document.getElementById('query').value = getQueryVariable("query");
+document.getElementById('id').value = getQueryVariable("id");
+</script>
+<script type="text/javascript">
+$(function() {
+    $( "#mraccordion" ).accordion();
+});
+</script>
+<script type="text/javascript">
+$(function() {
+    $( "#mrtestaccordion" ).accordion();
+});
+</script>
+<script type="text/javascript">
+$('div#wmeetingreport-tab').accordion({
+	collapsible: true,
+    active: false,
+    heightStyle: 'content'
+}); 
+</script>
+<script type="text/javascript">
+
+ $(window).load(function () {
+   init();
+});
+
+ </script>
+ <script type="text/javascript">
+
+function showMeetings(str)
+{
+	alert(str);
+	var querystr = "query="+str;
+	alert(querystr);
+	populatemCompleteList(meetingreport,querystr);
+var xmlhttp;
+if (str=="")
+  {
+  document.getElementById("txtHint").innerHTML="";
+  return;
+  }
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    document.getElementById("txtHint").innerHTML=xmlhttp.responseText;
+    }
+  }
+
+xmlhttp.open("GET","http://localhost:8080/meetingreport?query="+str,true);
+xmlhttp.send();
+}
+
+</script>
+<br><br><br><br><br><br>
+Version: 0.2
+
+</body>
+</html>

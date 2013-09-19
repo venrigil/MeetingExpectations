@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http:
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_intera_roostrap_domain_Directory" modelAttribute="directory" path="/directorys" render="${empty dependencies}" z="VmDuc9n9qMrCfazYwKITvXKc5ow=">
+        <field:input field="pfirstName" id="c_com_intera_roostrap_domain_Directory_pfirstName" z="SWkLBljd97vOeg7U4PuJH+NtO/c="/>
+        <field:input field="plastName" id="c_com_intera_roostrap_domain_Directory_plastName" z="XKzW81MpEN5H4Xa9jH3GPG/CPrA="/>
+        <field:input field="pemail" id="c_com_intera_roostrap_domain_Directory_pemail" validationMessageCode="field_invalid_email" z="JH2ue3An1mU8XJmbuVS4/+9LZ9Q="/>
+        <field:datetime dateTimePattern="${directory_pcreatedon_date_format}" field="pcreatedOn" id="c_com_intera_roostrap_domain_Directory_pcreatedOn" z="DWc3YoJ/er3COcD6IZgNBAs6Dow="/>
+        <field:datetime dateTimePattern="${directory_pmodifiedon_date_format}" field="pmodifiedOn" id="c_com_intera_roostrap_domain_Directory_pmodifiedOn" z="24PX3Lp3ZovwgTs3awUvMboz+wE="/>
+        <field:input field="pmeetings" id="c_com_intera_roostrap_domain_Directory_pmeetings" z="wb1AGZnhs2QXEQgIx8zPJRoujuM="/>
+        <field:input field="pagendaItems" id="c_com_intera_roostrap_domain_Directory_pagendaItems" z="lDaeUhzC96u37Mr41RC7/buuW/4="/>
+        <field:input field="pparticipants" id="c_com_intera_roostrap_domain_Directory_pparticipants" z="WGGNP8CpWok41Va1mLZMaTrCUTQ="/>
+        <field:input field="pnotes" id="c_com_intera_roostrap_domain_Directory_pnotes" z="0HjzdN7bRDI/drsP2RzBweISf/A="/>
+        <field:input field="pactionItems" id="c_com_intera_roostrap_domain_Directory_pactionItems" z="JrTkVoD7qETYjdTr15SoOZZssjg="/>
+        <field:input field="pWebCreated" id="c_com_intera_roostrap_domain_Directory_pWebCreated" z="gn6Tmd1MkxlVJ069JakGJCCG9q4="/>
+        <field:input field="piPadAppCreated" id="c_com_intera_roostrap_domain_Directory_piPadAppCreated" z="j4SxHNpYNuTMX5a1I7bbXn9JHeg="/>
+        <field:input field="pAndroidCreated" id="c_com_intera_roostrap_domain_Directory_pAndroidCreated" z="8MLlLq9KM0HXF/ybgoCvguHebXc="/>
+        <field:input field="pOtherCreated" id="c_com_intera_roostrap_domain_Directory_pOtherCreated" z="blb1qlVBg1w3dCVm1BM/WpzPnAA="/>
+        <field:input field="pAddlColumn1" id="c_com_intera_roostrap_domain_Directory_pAddlColumn1" z="nCRUESplZHrm9Y/cstQynFedL7A="/>
+        <field:input field="pAddlColumn2" id="c_com_intera_roostrap_domain_Directory_pAddlColumn2" z="h4H/hN/oqd/0bKblij4VMT5xyPM="/>
+        <field:input field="pAddlColumn3" id="c_com_intera_roostrap_domain_Directory_pAddlColumn3" z="Dk3nr1Hp6vLRotFZVaIVsqKBws0="/>
+        <field:input field="pAddlColumn4" id="c_com_intera_roostrap_domain_Directory_pAddlColumn4" z="l+Gfg4HyjZmN/2mwlmg3Gsj7PPQ="/>
+        <field:input field="pAddlColumn5" id="c_com_intera_roostrap_domain_Directory_pAddlColumn5" z="pfmPc5ISPMiU/nEzYO7vpYn2DSo="/>
+        <field:input field="pcreatedBy" id="c_com_intera_roostrap_domain_Directory_pcreatedBy" z="qqPerdZfpS4BxWnn2DCXxABI6fw="/>
+        <field:datetime dateTimePattern="${directory_psyncdate_date_format}" field="psyncDate" id="c_com_intera_roostrap_domain_Directory_psyncDate" z="dx2R4OkC8YdqIOVvvK8yRNru5i4="/>
+        <field:input field="contactID" id="c_com_intera_roostrap_domain_Directory_contactID" z="DNSSN+a4d4b8drPtljHp7tzrwS8="/>
+        <field:checkbox field="pdeleted" id="c_com_intera_roostrap_domain_Directory_pdeleted" z="C4XDarLRDT8VbmkR1V6FmKN/qfg="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_intera_roostrap_domain_Directory" render="${not empty dependencies}" z="K6V2NKtpqsMuFAO3ba0UywZj71Q="/>
+</div>

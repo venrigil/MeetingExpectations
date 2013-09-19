@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http:
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_intera_roostrap_domain_Meeting" object="${meeting}" path="/meetings" z="n6rPCVnePVaBXpBpb4R1G5tIle0=">
+        <field:display field="mtitle" id="s_com_intera_roostrap_domain_Meeting_mtitle" object="${meeting}" z="f6BnhZ7fzVKU3EjMZt7R/2chmvM="/>
+        <field:display field="mdesc" id="s_com_intera_roostrap_domain_Meeting_mdesc" object="${meeting}" z="aawYVOg+kaX97e+SEvlC3/jPR6M="/>
+        <field:display field="mlocation" id="s_com_intera_roostrap_domain_Meeting_mlocation" object="${meeting}" z="gUfzt3PnY9LRNd9qWL1g+adBCvI="/>
+        <field:display field="mid" id="s_com_intera_roostrap_domain_Meeting_mid" object="${meeting}" z="d/mWurXkb7ekWlZKmf5oeFnYYPQ="/>
+        <field:display date="true" dateTimePattern="${meeting_mdate_date_format}" field="mdate" id="s_com_intera_roostrap_domain_Meeting_mdate" object="${meeting}" z="BStTKR9eFL3KSPxxUMg5y5Wvqfc="/>
+        <field:display field="mplannedDuration" id="s_com_intera_roostrap_domain_Meeting_mplannedDuration" object="${meeting}" z="qzW2xYN4MN+u7VZPKRGYHyULoMw="/>
+        <field:display date="true" dateTimePattern="${meeting_mplannedstartdatetime_date_format}" field="mplannedStartDateTime" id="s_com_intera_roostrap_domain_Meeting_mplannedStartDateTime" object="${meeting}" z="U+RUcs3j6WoLXFAfdN6kwQ2YEgE="/>
+        <field:display field="mplannedStart" id="s_com_intera_roostrap_domain_Meeting_mplannedStart" object="${meeting}" z="LrH9K7upjAI2mSP8a37cHW2GPM0="/>
+        <field:display date="true" dateTimePattern="${meeting_mplannedenddatetime_date_format}" field="mplannedEndDateTime" id="s_com_intera_roostrap_domain_Meeting_mplannedEndDateTime" object="${meeting}" z="FQsi/eU+lhl/sTkxreQihs7f3ys="/>
+        <field:display field="mplannedEnd" id="s_com_intera_roostrap_domain_Meeting_mplannedEnd" object="${meeting}" z="cQEbvlWv4e15tTYYIBovM4rm6z0="/>
+        <field:display date="true" dateTimePattern="${meeting_msyncdate_date_format}" field="msyncDate" id="s_com_intera_roostrap_domain_Meeting_msyncDate" object="${meeting}" z="4bqQFQiiUrMDEvIFNER2ajs2pxY="/>
+        <field:display date="true" dateTimePattern="${meeting_mcreatedon_date_format}" field="mcreatedOn" id="s_com_intera_roostrap_domain_Meeting_mcreatedOn" object="${meeting}" z="BtLz/IbCLBK80YPa97TM42u87Dg="/>
+        <field:display field="mactualDuration" id="s_com_intera_roostrap_domain_Meeting_mactualDuration" object="${meeting}" z="OdS3RamA89wc076YJugQ9cQMK7g="/>
+        <field:display field="mcreatedBy" id="s_com_intera_roostrap_domain_Meeting_mcreatedBy" object="${meeting}" z="EuAUEnldNZwLj07c3LTw2NB+m5M="/>
+        <field:display field="mdeleted" id="s_com_intera_roostrap_domain_Meeting_mdeleted" object="${meeting}" z="QuXJOFtD0fsz9nYpy5jXczuaHb0="/>
+        <field:display date="true" dateTimePattern="${meeting_mmodifiedon_date_format}" field="mmodifiedOn" id="s_com_intera_roostrap_domain_Meeting_mmodifiedOn" object="${meeting}" z="BzanzfI54lD8PG6EGwtzb8+/gDs="/>
+        <field:display field="magendaitemsString" id="s_com_intera_roostrap_domain_Meeting_magendaitemsString" object="${meeting}" z="r4R5ok3w8NO7oKKNNzjoxa71LsA="/>
+        <field:display field="mparticipantsString" id="s_com_intera_roostrap_domain_Meeting_mparticipantsString" object="${meeting}" z="6Y4VP5JBnlsiQCqc1/1blWAZmy0="/>
+        <field:display field="murl" id="s_com_intera_roostrap_domain_Meeting_murl" object="${meeting}" z="gH4jelb1gOy/iKa7eQPSLpeCjFw="/>
+        <field:display field="mmeetings" id="s_com_intera_roostrap_domain_Meeting_mmeetings" object="${meeting}" z="GFZ/Cml2OoUbf0QHsd+G77wwA3g="/>
+        <field:display field="magendaItems" id="s_com_intera_roostrap_domain_Meeting_magendaItems" object="${meeting}" z="5bQDrZzy9KIfp9CpMRs8C8NS0dE="/>
+        <field:display field="mparticipants" id="s_com_intera_roostrap_domain_Meeting_mparticipants" object="${meeting}" z="PYgMvzeDb5fSAfgGl+AZU0Y7S3k="/>
+        <field:display field="mnotes" id="s_com_intera_roostrap_domain_Meeting_mnotes" object="${meeting}" z="wK1xXJ13Ce5GHcmYQTWnZrDUvXQ="/>
+        <field:display field="mactionItems" id="s_com_intera_roostrap_domain_Meeting_mactionItems" object="${meeting}" z="K8g28S5VuK5d5I9Ve5z+YbYetqQ="/>
+        <field:display field="MWebCreated" id="s_com_intera_roostrap_domain_Meeting_mWebCreated" object="${meeting}" z="oA/ixyRCHcsoiHx1qAafWZ4LnuU="/>
+        <field:display field="miPadAppCreated" id="s_com_intera_roostrap_domain_Meeting_miPadAppCreated" object="${meeting}" z="RTgvK0HXZgg3sjVNAOwCjKxBKRI="/>
+        <field:display field="MAndroidCreated" id="s_com_intera_roostrap_domain_Meeting_mAndroidCreated" object="${meeting}" z="heahJtVfIIfHvZphHB+u3mI/3bw="/>
+        <field:display field="MOtherCreated" id="s_com_intera_roostrap_domain_Meeting_mOtherCreated" object="${meeting}" z="ltQEgyaGZNCu0TpbowOQVjSQm7A="/>
+        <field:display field="MAddlColumn1" id="s_com_intera_roostrap_domain_Meeting_mAddlColumn1" object="${meeting}" z="kV5BCPGnFyENNxvISDq9829y4tI="/>
+        <field:display field="MAddlColumn2" id="s_com_intera_roostrap_domain_Meeting_mAddlColumn2" object="${meeting}" z="GrxvDf37M/IeBbxTEvsVkcq2eRI="/>
+        <field:display field="MAddlColumn3" id="s_com_intera_roostrap_domain_Meeting_mAddlColumn3" object="${meeting}" z="c64gZsjAuhY59D9JL1ozzWgSCbY="/>
+        <field:display field="MAddlColumn4" id="s_com_intera_roostrap_domain_Meeting_mAddlColumn4" object="${meeting}" z="bSsLzcOMcEU2bZ0p7KXxAIkf88o="/>
+        <field:display field="MAddlColumn5" id="s_com_intera_roostrap_domain_Meeting_mAddlColumn5" object="${meeting}" z="cNTHyW1ANqngafbOwiLy0t3mW8w="/>
+        <field:display field="meetingID" id="s_com_intera_roostrap_domain_Meeting_meetingID" object="${meeting}" z="NSZYZDrAV/siz+dlBauSDfhXgg4="/>
+    </page:show>
+</div>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http:
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_intera_roostrap_domain_Attachment" idField="PrimaryId" modelAttribute="attachment" path="/attachments" versionField="Version" z="V/iIsHS3+anEKGjGF+WIHuoSBNw=">
+        <field:input field="attachmentID" id="c_com_intera_roostrap_domain_Attachment_attachmentID" z="YWbi3O1zLRA9vHcexU80XvaJGnw="/>
+        <field:datetime dateTimePattern="${attachment_acreatedon_date_format}" field="acreatedOn" id="c_com_intera_roostrap_domain_Attachment_acreatedOn" z="QBv7hwLSS6h5Tl4p8nXq8v1agzo="/>
+        <field:checkbox field="adeleted" id="c_com_intera_roostrap_domain_Attachment_adeleted" z="IGbe7RnbLjKdu1osQ3C46TqI4QA="/>
+        <field:input field="adesc" id="c_com_intera_roostrap_domain_Attachment_adesc" z="/nATJ7sl+Eb5zMkgRSblTAZNl68="/>
+        <field:input field="afileName" id="c_com_intera_roostrap_domain_Attachment_afileName" z="+V2lVa81fUzSjkSrQn69ip9xJ6g="/>
+        <field:datetime dateTimePattern="${attachment_amodifiedon_date_format}" field="amodifiedOn" id="c_com_intera_roostrap_domain_Attachment_amodifiedOn" z="JE3Pgltaezdq33dO+yhafg2XnHY="/>
+        <field:input field="atype" id="c_com_intera_roostrap_domain_Attachment_atype" z="A5SQOFvqxu7HFli7o+vGf48Kpfc="/>
+        <field:input field="anoteID" id="c_com_intera_roostrap_domain_Attachment_anoteID" z="doc4ezhSijsu53H5RuCle4so05Y="/>
+        <field:input field="aparentType" id="c_com_intera_roostrap_domain_Attachment_aparentType" z="YpnsGx70Y+oPJUJj5XisDlOqRII="/>
+        <field:input field="aparentID" id="c_com_intera_roostrap_domain_Attachment_aparentID" z="wYehAO24qmqvki5bgLxbuodUHSM="/>
+        <field:input field="adata" id="c_com_intera_roostrap_domain_Attachment_adata" z="8iQMnmlv5/Gon+2CpStzxTVthHY="/>
+        <field:input field="athumbnail" id="c_com_intera_roostrap_domain_Attachment_athumbnail" z="1iiS4WWiBDvCqs1sGYSzW9wbhCA="/>
+    </form:update>
+</div>

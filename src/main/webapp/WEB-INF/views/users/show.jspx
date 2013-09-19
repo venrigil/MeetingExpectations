@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http:
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_intera_roostrap_domain_security_User" object="${user}" path="/users" z="cjC3TuwahRdnVB2O7TX9KtR4TmU=">
+        <field:display field="firstName" id="s_com_intera_roostrap_domain_security_User_firstName" object="${user}" z="TQzL/cQ/sW/X5WVvSnhFfiVOEoY="/>
+        <field:display field="lastName" id="s_com_intera_roostrap_domain_security_User_lastName" object="${user}" z="GjaumMAf4vzIqTkKLBR0zJLdjd0="/>
+        <field:display field="emailAddress" id="s_com_intera_roostrap_domain_security_User_emailAddress" object="${user}" z="84LB9eYo0HfWH07eozzZTdhjvLI="/>
+        <field:display field="password" id="s_com_intera_roostrap_domain_security_User_password" object="${user}" z="2RIfJdJti6RS9xJwqB8jE+vk0xc="/>
+        <field:display date="true" dateTimePattern="${user_activationdate_date_format}" field="activationDate" id="s_com_intera_roostrap_domain_security_User_activationDate" object="${user}" z="upRXSq/kHqm5wekPsBsiV6dzJ/Y="/>
+        <field:display field="enabled" id="s_com_intera_roostrap_domain_security_User_enabled" object="${user}" z="oeydQF0hpGN6vIJ07fEJC1k5k+E="/>
+        <field:display field="locked" id="s_com_intera_roostrap_domain_security_User_locked" object="${user}" z="Z11uUW3eFgnIic6ih6cJ6/YRtRY="/>
+        <field:display field="uactivationDateString" id="s_com_intera_roostrap_domain_security_User_uactivationDateString" object="${user}" z="U7MIia4s600Ve7fSAXTtDrF4ZNA="/>
+        <field:display field="umeetings" id="s_com_intera_roostrap_domain_security_User_umeetings" object="${user}" z="GuZQw3b73aHX1lQ9UewPKFEztm0="/>
+        <field:display field="uagendaItems" id="s_com_intera_roostrap_domain_security_User_uagendaItems" object="${user}" z="ur5iqXMOUJRLr3Q/4ghWDuGZgQo="/>
+        <field:display field="uparticipants" id="s_com_intera_roostrap_domain_security_User_uparticipants" object="${user}" z="66hA60wpT/pTSG8lcsh96nBu1Nk="/>
+        <field:display field="pnotes" id="s_com_intera_roostrap_domain_security_User_pnotes" object="${user}" z="6lbZbZXYxWNZ/E8AtGdU1ceiQCw="/>
+        <field:display field="uactionItems" id="s_com_intera_roostrap_domain_security_User_uactionItems" object="${user}" z="eI3lw+kJ6A0Ofq6KAq3kRxZFHQI="/>
+        <field:display field="UWebCreated" id="s_com_intera_roostrap_domain_security_User_uWebCreated" object="${user}" z="9PLRTJrwYWDtozW7EhJHvUe2uyk="/>
+        <field:display field="uiPadAppCreated" id="s_com_intera_roostrap_domain_security_User_uiPadAppCreated" object="${user}" z="noOaFo7F5aO10bdlq8+PIrm0IQQ="/>
+        <field:display field="UAndroidCreated" id="s_com_intera_roostrap_domain_security_User_uAndroidCreated" object="${user}" z="06N/97hXZpqiuOKV6y3txx/06T8="/>
+        <field:display field="UOtherCreated" id="s_com_intera_roostrap_domain_security_User_uOtherCreated" object="${user}" z="RHbZITd5X5N0K5e4Y+JESLLXPVY="/>
+        <field:display field="UAddlColumn1" id="s_com_intera_roostrap_domain_security_User_uAddlColumn1" object="${user}" z="vQksEpxyV8ErxdCcVDcIA7/0sQo="/>
+        <field:display field="UAddlColumn2" id="s_com_intera_roostrap_domain_security_User_uAddlColumn2" object="${user}" z="nsiZlBDN3GlDgE/qiPPR2WvAyQU="/>
+        <field:display field="UAddlColumn3" id="s_com_intera_roostrap_domain_security_User_uAddlColumn3" object="${user}" z="jFM7uZddsGxFdRBNWnyTN4ugzk8="/>
+        <field:display field="UAddlColumn4" id="s_com_intera_roostrap_domain_security_User_uAddlColumn4" object="${user}" z="6j+OKzeC4K0BKQrg/M5JfWvlrKA="/>
+        <field:display field="UAddlColumn5" id="s_com_intera_roostrap_domain_security_User_uAddlColumn5" object="${user}" z="fmGXrBta0ZNdVwjxT0LrmIZ5wkU="/>
+    </page:show>
+</div>

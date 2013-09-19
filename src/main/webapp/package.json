@@ -1,0 +1,20 @@
+{
+  "name"          : "pure",
+  "description"   : "PURE Unobtrusive Rendering Engine, keep your HTML clean of any logic",
+  "url"           : "http:
+  "keywords"      : ["unobtrusive", "templating", "engine", "think different"],
+  "author"        : "Mic Cvilic <mic@beebole.com>",
+  "contributors"  : [],
+  "dependencies"  : [],
+  "lib"           : "libs",
+  "main"          : "libs/pure.js",
+  "version"       : "2.82.0",
+  "repository" : {
+      "type" : "git",
+       "url" : "http:
+  },
+  "licenses": [{
+      "type": "The MIT License",
+      "url": "http:
+  ]
+}

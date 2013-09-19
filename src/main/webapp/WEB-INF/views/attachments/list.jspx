@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http:
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_intera_roostrap_domain_Attachment" items="${attachments}" z="u4Hel0a+9Pwi+rK/EmPCxzuxITU=">
+        <table:table data="${attachments}" id="l_com_intera_roostrap_domain_Attachment" path="/attachments" typeIdFieldName="PrimaryId" z="38bccpLJUiyecidZ2vc+4VFnGF4=">
+            <table:column id="c_com_intera_roostrap_domain_Attachment_attachmentID" property="attachmentID" z="EgEzKD7zxwpI0v0tORJNdbBjxyY="/>
+            <table:column date="true" dateTimePattern="${attachment_acreatedon_date_format}" id="c_com_intera_roostrap_domain_Attachment_acreatedOn" property="acreatedOn" z="CKkKBNLhUH0L/Mjefc6e4ydX4+k="/>
+            <table:column id="c_com_intera_roostrap_domain_Attachment_adeleted" property="adeleted" z="p+WnRpXlbv6Rew2ETzDGW4RDpj4="/>
+            <table:column id="c_com_intera_roostrap_domain_Attachment_adesc" property="adesc" z="tiaOF3F0DjB4/xBOlRTRty2q3Fg="/>
+            <table:column id="c_com_intera_roostrap_domain_Attachment_afileName" property="afileName" z="d9rPDuuhPLn5iC7dlGZS14VarPI="/>
+            <table:column date="true" dateTimePattern="${attachment_amodifiedon_date_format}" id="c_com_intera_roostrap_domain_Attachment_amodifiedOn" property="amodifiedOn" z="r9S+DR+sziWJpd1PNSB5YdgbkwE="/>
+        </table:table>
+    </page:list>
+</div>

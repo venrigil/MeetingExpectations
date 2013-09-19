@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http:
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_intera_roostrap_domain_Note" object="${note}" path="/notes" z="Ak/Obri3fXu2djdr5HsIzGoGHaU=">
+        <field:display field="ntext" id="s_com_intera_roostrap_domain_Note_ntext" object="${note}" z="/cog4NAOfVKrllJltmZOM8Ynizo="/>
+        <field:display field="ncreatedBy" id="s_com_intera_roostrap_domain_Note_ncreatedBy" object="${note}" z="cEajmeiSGJ3DHd7QuTYX2KcxxnE="/>
+        <field:display date="true" dateTimePattern="${note_ncreatedon_date_format}" field="ncreatedOn" id="s_com_intera_roostrap_domain_Note_ncreatedOn" object="${note}" z="35wr1y4ApWcKg5sMhS3BVwVUYf8="/>
+        <field:display date="true" dateTimePattern="${note_nmodifiedon_date_format}" field="nmodifiedOn" id="s_com_intera_roostrap_domain_Note_nmodifiedOn" object="${note}" z="LkMznPQo5sVTcp13dahLUXAAj7w="/>
+        <field:display field="ntitle" id="s_com_intera_roostrap_domain_Note_ntitle" object="${note}" z="Lpm7GWgS7m1JR5Hsni/ZQc3j2XU="/>
+        <field:display field="ndeleted" id="s_com_intera_roostrap_domain_Note_ndeleted" object="${note}" z="axpEmTJDWEoqZCU52Pr/wHxKfQo="/>
+        <field:display field="nmeetings" id="s_com_intera_roostrap_domain_Note_nmeetings" object="${note}" z="YRoTiwjZgraxvLj7aqamrWjBegA="/>
+        <field:display field="nagendaItems" id="s_com_intera_roostrap_domain_Note_nagendaItems" object="${note}" z="t/pZOlElxto0D3KD6tf8K25U1yw="/>
+        <field:display field="nparticipants" id="s_com_intera_roostrap_domain_Note_nparticipants" object="${note}" z="do8lsWEjKMKAk5KGPcIGtWmjkjU="/>
+        <field:display field="nnotes" id="s_com_intera_roostrap_domain_Note_nnotes" object="${note}" z="zEyoqGT30G7/4MMTuml+0ITKkEY="/>
+        <field:display field="nactionItems" id="s_com_intera_roostrap_domain_Note_nactionItems" object="${note}" z="CjkjMaRdx4KHtjCKV83MeuQHC1Y="/>
+        <field:display field="NWebCreated" id="s_com_intera_roostrap_domain_Note_nWebCreated" object="${note}" z="lQTciDNjdNj0i4DTQHhA3gQ2hBo="/>
+        <field:display field="niPadAppCreated" id="s_com_intera_roostrap_domain_Note_niPadAppCreated" object="${note}" z="Lx8epYQvFUxop/no3zox8Uo11z0="/>
+        <field:display field="NAndroidCreated" id="s_com_intera_roostrap_domain_Note_nAndroidCreated" object="${note}" z="YmkuJ6U0pj86zFWJf2vgXRrkvpw="/>
+        <field:display field="NOtherCreated" id="s_com_intera_roostrap_domain_Note_nOtherCreated" object="${note}" z="GG8vEspPW1FAhtqMtmkG5ODdhlg="/>
+        <field:display field="NAddlColumn1" id="s_com_intera_roostrap_domain_Note_nAddlColumn1" object="${note}" z="yxn9nNkILeDid0OyUZpPPQJhCqs="/>
+        <field:display field="NAddlColumn2" id="s_com_intera_roostrap_domain_Note_nAddlColumn2" object="${note}" z="eJ4BQqkywdSpGjDaS/Hu7A0/RX8="/>
+        <field:display field="NAddlColumn3" id="s_com_intera_roostrap_domain_Note_nAddlColumn3" object="${note}" z="4KhzqV1i7FBIJw15Hb055y1TcHM="/>
+        <field:display field="NAddlColumn4" id="s_com_intera_roostrap_domain_Note_nAddlColumn4" object="${note}" z="z5ebuX4ssVPXBNumFbxH3HS4rjU="/>
+        <field:display field="NAddlColumn5" id="s_com_intera_roostrap_domain_Note_nAddlColumn5" object="${note}" z="199zbXvP3Y6438qtyLXlYvfA88U="/>
+        <field:display date="true" dateTimePattern="${note_nsyncdate_date_format}" field="nsyncDate" id="s_com_intera_roostrap_domain_Note_nsyncDate" object="${note}" z="pei3+XRae0PGPIRL6h4CYXHwrPM="/>
+        <field:display field="nparentType" id="s_com_intera_roostrap_domain_Note_nparentType" object="${note}" z="Fz8GHswlI/q3DgeItrWFN0rjH00="/>
+        <field:display field="nparentID" id="s_com_intera_roostrap_domain_Note_nparentID" object="${note}" z="qGhc/oJzTO+I9pqhX7pjyj7whr8="/>
+        <field:display field="nmaaID" id="s_com_intera_roostrap_domain_Note_nmaaID" object="${note}" z="f6WVyOTvx1ZUHXOx3VGZFwzma/M="/>
+        <field:display field="noteID" id="s_com_intera_roostrap_domain_Note_noteID" object="${note}" z="d0bN2PQ7PMQ8wNdb6k5vupdjsp0="/>
+    </page:show>
+</div>

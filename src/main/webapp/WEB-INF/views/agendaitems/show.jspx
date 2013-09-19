@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http:
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_intera_roostrap_domain_Agendaitem" object="${agendaitem}" path="/agendaitems" z="vI91ojVdpgeEPBYTmNBx8K9Nu5I=">
+        <field:display field="agititle" id="s_com_intera_roostrap_domain_Agendaitem_agititle" object="${agendaitem}" z="pPh3Oe73RH1wh13roevv7la67F0="/>
+        <field:display field="agiduration" id="s_com_intera_roostrap_domain_Agendaitem_agiduration" object="${agendaitem}" z="CDafDmtRxYDlIuH8O6uhwoXxU8I="/>
+        <field:display field="agitype" id="s_com_intera_roostrap_domain_Agendaitem_agitype" object="${agendaitem}" z="XdwtXqikyG7WE1EDuLKRFO3s4lI="/>
+        <field:display field="agipresenter" id="s_com_intera_roostrap_domain_Agendaitem_agipresenter" object="${agendaitem}" z="g2SEOpGaCEGwwNrc1hoAy0AaXCk="/>
+        <field:display field="agiorder" id="s_com_intera_roostrap_domain_Agendaitem_agiorder" object="${agendaitem}" z="/U+G6EGG1HrcovZWniv7IzGGM7I="/>
+        <field:display field="agiid" id="s_com_intera_roostrap_domain_Agendaitem_agiid" object="${agendaitem}" z="wVOKQFCnij1lIketYxcAwPGqhqY="/>
+        <field:display field="agimeetingID" id="s_com_intera_roostrap_domain_Agendaitem_agimeetingID" object="${agendaitem}" z="lYiydF3qh4OYKOIYNJDp+DgMTRw="/>
+        <field:display field="agidesc" id="s_com_intera_roostrap_domain_Agendaitem_agidesc" object="${agendaitem}" z="0hb7iUf0U2iLm7QuKsnaGU5ufkY="/>
+        <field:display date="true" dateTimePattern="${agendaitem_agiactualstart_date_format}" field="agiactualStart" id="s_com_intera_roostrap_domain_Agendaitem_agiactualStart" object="${agendaitem}" z="zJ89Gx9Hm2NMqd0vgVLRQgLx6As="/>
+        <field:display date="true" dateTimePattern="${agendaitem_agiactualend_date_format}" field="agiactualEnd" id="s_com_intera_roostrap_domain_Agendaitem_agiactualEnd" object="${agendaitem}" z="HsCQWg3OZK7KHZCJettGXl2BFVI="/>
+        <field:display field="agicompleted" id="s_com_intera_roostrap_domain_Agendaitem_agicompleted" object="${agendaitem}" z="I8zfrX5bCEaD+LQ6dS5zEoHsKNo="/>
+        <field:display date="true" dateTimePattern="${agendaitem_agicreatedon_date_format}" field="agicreatedOn" id="s_com_intera_roostrap_domain_Agendaitem_agicreatedOn" object="${agendaitem}" z="gSCja4819MEAUIIfQSoOLCO9CXw="/>
+        <field:display field="agideleted" id="s_com_intera_roostrap_domain_Agendaitem_agideleted" object="${agendaitem}" z="xnBvS17FcJXw0+9yPQOnqiLdX54="/>
+        <field:display date="true" dateTimePattern="${agendaitem_agimodifiedon_date_format}" field="agimodifiedOn" id="s_com_intera_roostrap_domain_Agendaitem_agimodifiedOn" object="${agendaitem}" z="zs+UaPKUp/EV5jLgl620Qes4C5Q="/>
+        <field:display field="agicreatedBy" id="s_com_intera_roostrap_domain_Agendaitem_agicreatedBy" object="${agendaitem}" z="S+w52/UgU4bib1oT1of2LcDQHAg="/>
+        <field:display field="agiactionItems" id="s_com_intera_roostrap_domain_Agendaitem_agiactionItems" object="${agendaitem}" z="0RiiFn5PQv+AQnKXoPBu96em29w="/>
+        <field:display field="agimeetings" id="s_com_intera_roostrap_domain_Agendaitem_agimeetings" object="${agendaitem}" z="2yzPlgyoYbC6Ni80jSc2kMNTIVo="/>
+        <field:display field="aginotes" id="s_com_intera_roostrap_domain_Agendaitem_aginotes" object="${agendaitem}" z="AWxJoQJzTO720tsOm4qP6JCO0K4="/>
+        <field:display field="agiparticipants" id="s_com_intera_roostrap_domain_Agendaitem_agiparticipants" object="${agendaitem}" z="GRGApC/Us9a09cwMrgqe0wSpgVM="/>
+        <field:display field="agiWebCreated" id="s_com_intera_roostrap_domain_Agendaitem_agiWebCreated" object="${agendaitem}" z="jSWh3WG6CH5aCOl0APZC1wcyWBI="/>
+        <field:display field="agiiPadAppCreated" id="s_com_intera_roostrap_domain_Agendaitem_agiiPadAppCreated" object="${agendaitem}" z="ZwZBqacpDDBmC5xQZaj2ug2YT5s="/>
+        <field:display field="agiAndroidCreated" id="s_com_intera_roostrap_domain_Agendaitem_agiAndroidCreated" object="${agendaitem}" z="WWb235soJk/PUdB+AfqtEWbKCCg="/>
+        <field:display field="agiOtherCreated" id="s_com_intera_roostrap_domain_Agendaitem_agiOtherCreated" object="${agendaitem}" z="iVTyD9cTJwxx2Ye1f5BVjS2oNdA="/>
+        <field:display field="agiAddlColumn1" id="s_com_intera_roostrap_domain_Agendaitem_agiAddlColumn1" object="${agendaitem}" z="Xszs+gRoDCc5AQgkeGEla7gAgMI="/>
+        <field:display field="agiAddlColumn2" id="s_com_intera_roostrap_domain_Agendaitem_agiAddlColumn2" object="${agendaitem}" z="ox2jWpNnnMjtw5V3cLr8Sqq5wkc="/>
+        <field:display field="agiAddlColumn3" id="s_com_intera_roostrap_domain_Agendaitem_agiAddlColumn3" object="${agendaitem}" z="ULrUOjAUR/v6M7hjBrTbTDAzgoM="/>
+        <field:display field="agiAddlColumn4" id="s_com_intera_roostrap_domain_Agendaitem_agiAddlColumn4" object="${agendaitem}" z="UZt8D0LpX6fCzULJl8SfXvdX4nY="/>
+        <field:display field="agiAddlColumn5" id="s_com_intera_roostrap_domain_Agendaitem_agiAddlColumn5" object="${agendaitem}" z="4x4Ygjgcp5WsNszyulkUphXs2W4="/>
+        <field:display field="agiagendaItems" id="s_com_intera_roostrap_domain_Agendaitem_agiagendaItems" object="${agendaitem}" z="uBVJoj4CEVTTYln0TqhPZrf+Jeg="/>
+        <field:display date="true" dateTimePattern="${agendaitem_agisyncdate_date_format}" field="agisyncDate" id="s_com_intera_roostrap_domain_Agendaitem_agisyncDate" object="${agendaitem}" z="2qGNByLmOCR7bnXGtKPLQY2dg1s="/>
+        <field:display field="agendaItemID" id="s_com_intera_roostrap_domain_Agendaitem_agendaItemID" object="${agendaitem}" z="dVLA53ANng60KMbwOCzA8+QUJxo="/>
+    </page:show>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http:
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_intera_roostrap_domain_Agendaitem" items="${agendaitems}" z="m5umI12iP3tqjrJwfED5qhrMCSI=">
+        <table:table data="${agendaitems}" id="l_com_intera_roostrap_domain_Agendaitem" path="/agendaitems" typeIdFieldName="PrimaryId" z="rLnyAm8OooRhLQwgYzEObqN3swc=">
+            <table:column id="c_com_intera_roostrap_domain_Agendaitem_agititle" property="agititle" z="kVe3qLyE3hD4Ja7Rw3c/EZDG3kg="/>
+            <table:column id="c_com_intera_roostrap_domain_Agendaitem_agiduration" property="agiduration" z="4ch7tRo+3RHMNSNayrM1wkucaI0="/>
+            <table:column id="c_com_intera_roostrap_domain_Agendaitem_agitype" property="agitype" z="WAi7LMeIMBIUOSAUd5Y9fW2GnLk="/>
+            <table:column id="c_com_intera_roostrap_domain_Agendaitem_agipresenter" property="agipresenter" z="QouxIsRrZvMPXioc2tVUulTrYLs="/>
+            <table:column id="c_com_intera_roostrap_domain_Agendaitem_agiorder" property="agiorder" z="lM24hg5v452ogp/evGPrn/yim+w="/>
+            <table:column id="c_com_intera_roostrap_domain_Agendaitem_agendaItemID" property="agendaItemID" z="jRpoD55QLgJ1cNFHBp+E44nT0fM="/>
+        </table:table>
+    </page:list>
+</div>

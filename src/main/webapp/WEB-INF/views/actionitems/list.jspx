@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http:
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_intera_roostrap_domain_Actionitem" items="${actionitems}" z="BSUWr176MXJRhbdFfmQT6jEIwZA=">
+        <table:table data="${actionitems}" id="l_com_intera_roostrap_domain_Actionitem" path="/actionitems" typeIdFieldName="PrimaryId" z="iSBf0Jmp00/ibJCvLNbSYAfx7Zg=">
+            <table:column id="c_com_intera_roostrap_domain_Actionitem_actionItemID" property="actionItemID" z="iT8XWkBDCwkE5cOEBTG+UM9obG4="/>
+            <table:column id="c_com_intera_roostrap_domain_Actionitem_aciassignee" property="aciassignee" z="W9UaFHxcsHrddU5N3Mxdc80hg1c="/>
+            <table:column id="c_com_intera_roostrap_domain_Actionitem_acidesc" property="acidesc" z="u73XSxMXmpQzeKlaDsqKQtAv7hY="/>
+            <table:column id="c_com_intera_roostrap_domain_Actionitem_acideleted" property="acideleted" z="sTAKz/xRE/dVReFlBa+8Zdi4JFU="/>
+            <table:column id="c_com_intera_roostrap_domain_Actionitem_acimeetingID" property="acimeetingID" z="gYo9TLxrjks5PizuQczsoHYTEEs="/>
+            <table:column date="true" dateTimePattern="${actionitem_acicreatedon_date_format}" id="c_com_intera_roostrap_domain_Actionitem_acicreatedOn" property="acicreatedOn" z="J9WHNPpnhJbKxgjjOkmP9JbeOzY="/>
+        </table:table>
+    </page:list>
+</div>

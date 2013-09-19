@@ -1,0 +1,17 @@
+<div xmlns:c="http:
+	xmlns:form="http:
+	xmlns:jsp="http:
+	xmlns:spring="http:
+	xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" version="2.0">
+	<jsp:output omit-xml-declaration="yes" />
+
+	<spring:message code="label_sign_up" htmlEscape="false" var="title" />
+	<util:panel id="title" title="${title}">
+		<h2>
+			<spring:message code="header_signup_failed" />
+		</h2>
+		<p>
+			<spring:message code="desc_signup_failed" />
+		</p>
+	</util:panel>
+</div>

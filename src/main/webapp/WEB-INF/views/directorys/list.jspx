@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http:
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_intera_roostrap_domain_Directory" items="${directorys}" z="hulFwqTQmibm8fygVQTR568eDcI=">
+        <table:table data="${directorys}" id="l_com_intera_roostrap_domain_Directory" path="/directorys" typeIdFieldName="PrimaryId" z="7/23XIPoJIWFNSxkQPfqKJloQiM=">
+            <table:column id="c_com_intera_roostrap_domain_Directory_pfirstName" property="pfirstName" z="o5j830zsnxlk3DLMc0ch37dYlI8="/>
+            <table:column id="c_com_intera_roostrap_domain_Directory_plastName" property="plastName" z="SnjGJY1SNkqV/od7HpafdDNnQnU="/>
+            <table:column id="c_com_intera_roostrap_domain_Directory_pemail" property="pemail" z="uZgyTDAOFOK6QxvkGNy1f1WPLWY="/>
+            <table:column id="c_com_intera_roostrap_domain_Directory_contactID" property="contactID" z="vrT26JoGYicxRv8d1chYQf0aHlo="/>
+            <table:column date="true" dateTimePattern="${directory_pcreatedon_date_format}" id="c_com_intera_roostrap_domain_Directory_pcreatedOn" property="pcreatedOn" z="qNl5G3NQJTU8mmq3Hm2c4DJMTds="/>
+            <table:column id="c_com_intera_roostrap_domain_Directory_pdeleted" property="pdeleted" z="pLGbnw+g+AVyPxAdyXuLypbQ/eY="/>
+        </table:table>
+    </page:list>
+</div>

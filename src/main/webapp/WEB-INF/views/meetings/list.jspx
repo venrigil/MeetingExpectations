@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http:
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_intera_roostrap_domain_Meeting" items="${meetings}" z="WkbSi1GXpAFmfcuFt6Gtzds7ETY=">
+        <table:table data="${meetings}" id="l_com_intera_roostrap_domain_Meeting" path="/meetings" typeIdFieldName="PrimaryId" z="eRSv5EH6u8VnLWXEd7z/ya8IU8o=">
+            <table:column id="c_com_intera_roostrap_domain_Meeting_mtitle" property="mtitle" z="s+kK3CY4GrrUJGUgSqgQBw1pBBk="/>
+            <table:column id="c_com_intera_roostrap_domain_Meeting_mdesc" property="mdesc" z="mf0tPk0zMvOdacttpAUCYUp3OqY="/>
+            <table:column id="c_com_intera_roostrap_domain_Meeting_mlocation" property="mlocation" z="XS/FV53MIgvH2wymXv0kSXg93kU="/>
+            <table:column id="c_com_intera_roostrap_domain_Meeting_meetingID" property="meetingID" z="mUvbvz0ee4EeWSQeirbgj3SSnlI="/>
+            <table:column id="c_com_intera_roostrap_domain_Meeting_mid" property="mid" z="bemGGbJ+q17RYXL4SUer5QeaFjg="/>
+            <table:column date="true" dateTimePattern="${meeting_mdate_date_format}" id="c_com_intera_roostrap_domain_Meeting_mdate" property="mdate" z="hQiBCTwjUzPndrgo4y4JhykF6VI="/>
+        </table:table>
+    </page:list>
+</div>

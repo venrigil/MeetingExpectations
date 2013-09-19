@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http:
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_intera_roostrap_domain_Actionitem" object="${actionitem}" path="/actionitems" z="M126zU9qfPiuVb6daEC4mfmWRIU=">
+        <field:display field="aciassignee" id="s_com_intera_roostrap_domain_Actionitem_aciassignee" object="${actionitem}" z="bilXUIzoVI7m46ro1IHjlRBDY04="/>
+        <field:display field="acidesc" id="s_com_intera_roostrap_domain_Actionitem_acidesc" object="${actionitem}" z="mAMDCsKsOynL+5FI9yWjkLzlvwc="/>
+        <field:display field="acideleted" id="s_com_intera_roostrap_domain_Actionitem_acideleted" object="${actionitem}" z="BkbhAVj/CaK3arrpiwb+vM0OIFc="/>
+        <field:display date="true" dateTimePattern="${actionitem_acicreatedon_date_format}" field="acicreatedOn" id="s_com_intera_roostrap_domain_Actionitem_acicreatedOn" object="${actionitem}" z="03cW5GQLg42/TeSziUi5AMbQ5Hw="/>
+        <field:display date="true" dateTimePattern="${actionitem_acimodifiedon_date_format}" field="acimodifiedOn" id="s_com_intera_roostrap_domain_Actionitem_acimodifiedOn" object="${actionitem}" z="dC2lZrYooyc5w3SWXN44pG3blbc="/>
+        <field:display field="acistatus" id="s_com_intera_roostrap_domain_Actionitem_acistatus" object="${actionitem}" z="bWXTJdumCbtyDqf9VCURwminIeI="/>
+        <field:display field="aciorder" id="s_com_intera_roostrap_domain_Actionitem_aciorder" object="${actionitem}" z="9CRvHoaliI1Tos+Q3EpdfzDWBJ8="/>
+        <field:display date="true" dateTimePattern="${actionitem_aciduedate_date_format}" field="acidueDate" id="s_com_intera_roostrap_domain_Actionitem_acidueDate" object="${actionitem}" z="d1tn9nnHPCR7Shs49GGqnLnAcyY="/>
+        <field:display field="acimeetings" id="s_com_intera_roostrap_domain_Actionitem_acimeetings" object="${actionitem}" z="2uOPOBkopGlk5ntaR0uiuq0y2Kk="/>
+        <field:display field="aciagendaItems" id="s_com_intera_roostrap_domain_Actionitem_aciagendaItems" object="${actionitem}" z="A4NJ/VkYSe8Hr8PnkyE87v2ngQA="/>
+        <field:display field="aciparticipants" id="s_com_intera_roostrap_domain_Actionitem_aciparticipants" object="${actionitem}" z="hBDTsBXlx2y65pxthiQ0mv7ZlUc="/>
+        <field:display field="acinotes" id="s_com_intera_roostrap_domain_Actionitem_acinotes" object="${actionitem}" z="eVOm/CUY3q/qvjcwVWdFKn39K30="/>
+        <field:display field="aciactionItems" id="s_com_intera_roostrap_domain_Actionitem_aciactionItems" object="${actionitem}" z="LZoBosnLHj1ckf6qJQ13/s/VGrY="/>
+        <field:display field="aciWebCreated" id="s_com_intera_roostrap_domain_Actionitem_aciWebCreated" object="${actionitem}" z="6XjA4FZLNBjPz+6Ya42g2mPx1Qk="/>
+        <field:display field="aciiPadAppCreated" id="s_com_intera_roostrap_domain_Actionitem_aciiPadAppCreated" object="${actionitem}" z="IYkJpgliRT++nnQ2bJzryadp/ng="/>
+        <field:display field="aciAndroidCreated" id="s_com_intera_roostrap_domain_Actionitem_aciAndroidCreated" object="${actionitem}" z="pGEcrzhcv2qChO9fLekuWDZ8WVc="/>
+        <field:display field="aciOtherCreated" id="s_com_intera_roostrap_domain_Actionitem_aciOtherCreated" object="${actionitem}" z="At/2OsNsEsI1uOzJFYwZQEtZoiE="/>
+        <field:display field="aciAddlColumn1" id="s_com_intera_roostrap_domain_Actionitem_aciAddlColumn1" object="${actionitem}" z="KkWOwSsc+Bb6r4xr2nqbsXdXFlo="/>
+        <field:display field="aciAddlColumn2" id="s_com_intera_roostrap_domain_Actionitem_aciAddlColumn2" object="${actionitem}" z="feIs+D/k34gvnpuJyvWesz+pZmk="/>
+        <field:display field="aciAddlColumn3" id="s_com_intera_roostrap_domain_Actionitem_aciAddlColumn3" object="${actionitem}" z="E8XWKaUSqvxAfkl6vQpiqrw3BMM="/>
+        <field:display field="aciAddlColumn4" id="s_com_intera_roostrap_domain_Actionitem_aciAddlColumn4" object="${actionitem}" z="k1dHJwYT3+2mU5lYyZn1k8xPkN0="/>
+        <field:display field="aciAddlColumn5" id="s_com_intera_roostrap_domain_Actionitem_aciAddlColumn5" object="${actionitem}" z="t29J/fYotbgDT4eJYQxS/+BFFBo="/>
+        <field:display field="acicreatedBy" id="s_com_intera_roostrap_domain_Actionitem_acicreatedBy" object="${actionitem}" z="/QXKyKc/skPjFspXnntqIQnWRi0="/>
+        <field:display date="true" dateTimePattern="${actionitem_acisyncdate_date_format}" field="acisyncDate" id="s_com_intera_roostrap_domain_Actionitem_acisyncDate" object="${actionitem}" z="YJWxsbC9lmLtg08QErObDtQvZkY="/>
+        <field:display field="acimeetingID" id="s_com_intera_roostrap_domain_Actionitem_acimeetingID" object="${actionitem}" z="MuBwgTVCdZaaL2i/1sESMN0hEs8="/>
+        <field:display field="actionItemID" id="s_com_intera_roostrap_domain_Actionitem_actionItemID" object="${actionitem}" z="ub05DJCgaNpicRIJjoSUDBIS8G4="/>
+        <field:display field="aciparentType" id="s_com_intera_roostrap_domain_Actionitem_aciparentType" object="${actionitem}" z="a1qQ9MGu/X6CYKp6fzcFEfFewfw="/>
+        <field:display field="aciparentID" id="s_com_intera_roostrap_domain_Actionitem_aciparentID" object="${actionitem}" z="37GKsNeZ3KMpWXFRtqS9xwbWLxk="/>
+    </page:show>
+</div>

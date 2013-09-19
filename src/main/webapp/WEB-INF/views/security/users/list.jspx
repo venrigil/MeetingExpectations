@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http:
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_intera_roostrap_domain_security_User" items="${users}" z="CmjLJ5EOCYue2PywD3r+sQ
+        <table:table data="${users}" id="l_com_intera_roostrap_domain_security_User" path="/security/users" z="OtdY1C0aqvoJKsKtq55m44vui74=">
+            <table:column id="c_com_intera_roostrap_domain_security_User_firstName" property="firstName" z="qQvVO6UBoph0CfJN3l0yDxm2h0s="/>
+            <table:column id="c_com_intera_roostrap_domain_security_User_lastName" property="lastName" z="gBpTZH9oUj2kD6/6RUdn99j5uQU="/>
+            <table:column id="c_com_intera_roostrap_domain_security_User_emailAddress" property="emailAddress" z="3WLfQhxadp9brwCkohnr+W0X5qk="/>
+            <table:column id="c_com_intera_roostrap_domain_security_User_password" property="password" render="false" z="user-managed"/>
+            <table:column date="true" dateTimePattern="${user_activationdate_date_format}" id="c_com_intera_roostrap_domain_security_User_activationDate" property="activationDate" z="W733fZF95mJ4wr66ClR9i5s7rgA="/>
+            <table:column id="c_com_intera_roostrap_domain_security_User_enabled" property="enabled" z="Q3w/LQgDrieoLj9+yE16Z2ytssc="/>
+        </table:table>
+    </page:list>
+</div>
